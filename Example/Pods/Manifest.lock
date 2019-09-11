@@ -1,0 +1,16 @@
+PODS:
+  - CXDragTableView (0.1.0)
+
+DEPENDENCIES:
+  - CXDragTableView (from `../`)
+
+EXTERNAL SOURCES:
+  CXDragTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CXDragTableView: e7ca5a5b5c51f22881756ca6508c5f2da6fb88fc
+
+PODFILE CHECKSUM: 1ef92c13efff512db5ec8b1ea2e4e03057531964
+
+COCOAPODS: 1.5.3
