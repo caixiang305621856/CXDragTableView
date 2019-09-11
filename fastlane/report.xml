@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.003907">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="0.810772">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: Switch to ios cx_gitHubLib lane" time="0.002435">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: cocoapods" time="2.988084">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.019948">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.040531">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="5.74785">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.013781">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: remove_tag" time="6.298279">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.021489">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="5.938804">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="12.152507">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: pod_push" time="125.843871">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
