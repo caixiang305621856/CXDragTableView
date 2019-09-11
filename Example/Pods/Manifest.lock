@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXDragTableView: 7af95a1e105a360f2df93f6bc415750a9ec317a2
+  CXDragTableView: fbefedb195c795aa89b25f3e74c25aa8c22c2877
 
 PODFILE CHECKSUM: 1ef92c13efff512db5ec8b1ea2e4e03057531964
 

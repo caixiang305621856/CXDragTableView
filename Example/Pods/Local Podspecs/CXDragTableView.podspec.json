@@ -1,7 +1,7 @@
 {
   "name": "CXDragTableView",
   "version": "0.1.0",
-  "summary": "CXDragTableView.",
+  "summary": "DragTableView",
   "description": "自定义拖拽的TableView",
   "homepage": "https://github.com/caixiang305621856/CXDragTableView",
   "license": {
