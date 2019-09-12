@@ -7,6 +7,8 @@
 
 ## Example
 
+[![效果](http://code.cocoachina.com/uploads/attachments/20190911/1000211/30e318ccdea05982c754c32230b7a7e3.gif)]
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
