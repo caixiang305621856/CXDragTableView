@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXDragTableView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'DragTableView'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '自定义拖拽的TableView'
+  s.description      = '自定义拖拽的TableViewCell'
 
   s.homepage         = 'https://github.com/caixiang305621856/CXDragTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

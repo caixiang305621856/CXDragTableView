@@ -18,6 +18,7 @@ typedef enum{
 #pragma mark - Data Perproty
 @property (nonatomic, strong) UILongPressGestureRecognizer *gesture;
 @property (nonatomic, strong) NSIndexPath *selectedIndexPath;
+@property (nonatomic, strong) NSIndexPath *touchIndexPath;
 @property (nonatomic, strong) UIView *dragView;
 @property (nonatomic, strong) CADisplayLink *autoScrollTimer;
 @property (nonatomic, assign) SnapshotMeetsEdge autoScrollDirection;
@@ -68,6 +69,7 @@ typedef enum{
         {
             CGPoint point = [gesture locationInView:gesture.view];
             NSIndexPath *selectedIndexPath = [self indexPathForRowAtPoint:point];
+            self.touchIndexPath = selectedIndexPath;
             if (!selectedIndexPath) {
                 return;
             }
@@ -99,6 +101,10 @@ typedef enum{
             break;
         case UIGestureRecognizerStateChanged:
         {
+            //拖拽的时候的区域可能是超出了拖拽区域
+            if (!self.touchIndexPath) {
+                return;
+            }
             if(self.delegate && [self.delegate respondsToSelector:@selector(tableView:newCanMoveRowAtIndexPath:)]) {
                 _canDrag = [self.delegate tableView:self newCanMoveRowAtIndexPath:self.selectedIndexPath];
             }
@@ -141,6 +147,10 @@ typedef enum{
         case UIGestureRecognizerStateEnded:
         case UIGestureRecognizerStateCancelled:
         {
+            //拖拽的时候的区域可能是超出了拖拽区域
+            if (!self.touchIndexPath) {
+                return;
+            }
             if(self.delegate && [self.delegate respondsToSelector:@selector(tableView:newCanMoveRowAtIndexPath:)]) {
                 _canDrag = [self.delegate tableView:self newCanMoveRowAtIndexPath:self.selectedIndexPath];
             }
