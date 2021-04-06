@@ -124,6 +124,7 @@ typedef enum{
     
             if ([self checkIfSnapshotMeetsEdge]) {
                 [self startAutoScrollTimer];
+                return;
             }else{
                 [self stopAutoScrollTimer];
             }
@@ -240,7 +241,7 @@ typedef enum{
  *  开始自动滚动
  */
 - (void)startAutoScroll{
-    CGFloat pixelSpeed = 4;
+    CGFloat pixelSpeed = 2;
     if (self.autoScrollDirection == SnapshotMeetsEdgeTop) {//向上滚动
         if (self.contentOffset.y > 0) {//向下滚动最大范围限制
             [self setContentOffset:CGPointMake(0, self.contentOffset.y - pixelSpeed)];
@@ -256,7 +257,7 @@ typedef enum{
      交换cell
      */
     NSIndexPath *exchangePath= [self indexPathForRowAtPoint:self.dragView.center];
-    if (exchangePath) {
+    if (exchangePath && self.selectedIndexPath != exchangePath ) {
         //判断下要移动的exchangeIndex 是否是在允许的范围内
         BOOL canExchange = YES;
         if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:newTargetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:)]) {

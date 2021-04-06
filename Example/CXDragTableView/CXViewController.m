@@ -88,7 +88,7 @@
 #pragma mark - getter & setter
 - (CXDragTableView *)tableView{
     if (!_tableView) {
-        _tableView = [[CXDragTableView alloc] initWithFrame:self.view.bounds];
+        _tableView = [[CXDragTableView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100)];
         [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FTQuestionOptionCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([FTQuestionOptionCell class])];
         _tableView.dataSource = self;
         _tableView.delegate = self;
@@ -100,7 +100,7 @@
 
 - (NSMutableArray *)dataSource{
     if (!_dataSource) {
-        _dataSource = @[@55,@57,@50,@56,@59,@53,@52,@51,@50,@51,@43,@50,@50,@50,@50,@50,@50].mutableCopy;
+        _dataSource = @[@55,@57,@50,@56,@59,@53,@52,@51,@50,@51,@43,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50,@50].mutableCopy;
     }
     return _dataSource;
 }
