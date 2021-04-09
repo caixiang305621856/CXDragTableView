@@ -5,69 +5,69 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000606">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.00075">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: import_from_git" time="0.712172">
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="0.794083">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: Switch to ios cx_gitHubLib lane" time="0.000369">
+      <testcase classname="fastlane.lanes" name="02: Switch to ios cx_gitHubLib lane" time="0.000379">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: cocoapods" time="2.162376">
+      <testcase classname="fastlane.lanes" name="03: cocoapods" time="2.262147">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.024156">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.025453">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.050739">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.057164">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="10.733829">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="8.63221">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.015996">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.013677">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: remove_tag" time="5.157682">
+      <testcase classname="fastlane.lanes" name="08: remove_tag" time="4.239847">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.025266">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.020278">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="5.061647">
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="3.504371">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="16.700284">
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="135.945463">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: pod_push" time="2.196089">
+      <testcase classname="fastlane.lanes" name="12: pod_push" time="2.095811">
         
-          <failure message="/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../var/folders/85/kv2ywtj151l1dyw8tlxk_gmm0000gn/T/fl_clone20210409-76446-ppqi25/CXActionLanes.git/fastlane/ios_fastfile.rb:69:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:204:in `try_switch_to_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:146:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:15:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:352:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/bin/fastlane:23:in `load'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'CXDragTableView.podspec' --sources='https://cdn.cocoapods.org/' --allow-warnings --use-libraries' was 1 instead of 0.&#10;[!] Unknown option: `--sources=https://cdn.cocoapods.org/`&#10;Did you mean: --synchronous?&#10;&#10;Usage:&#10;&#10;    $ pod trunk push [PATH]&#10;&#10;      Publish the podspec at `PATH` to make it available to all users of the ‘trunk’&#10;      spec-repo. If `PATH` is not provided, defaults to the current directory.&#10;&#10;      Before pushing the podspec to cocoapods.org, this will perform a local lint of&#10;      the podspec, including a build of the library. However, it remains *your*&#10;      responsibility to ensure that the published podspec will actually work for your&#10;      users. Thus it is recommended that you *first* try to use the podspec to&#10;      integrate the library into your demo and/or real application.&#10;&#10;      If this is the first time you publish a spec for this pod, you will&#10;      automatically be registered as the ‘owner’ of this pod. (Note that ‘owner’ in&#10;      this case implies a person that is allowed to publish new versions and add other&#10;      ‘owners’, not necessarily the library author.)&#10;&#10;Options:&#10;&#10;    --allow-warnings           Allows push even if there are lint warnings&#10;    --use-libraries            Linter uses static libraries to install the spec&#10;    --use-modular-headers      Lint uses modular headers during installation&#10;    --swift-version=VERSION    The SWIFT_VERSION that should be used to lint the spec.&#10;                               This takes precedence over a .swift-version file.&#10;    --skip-import-validation   Lint skips validating that the pod can be imported&#10;    --skip-tests               Lint skips building and running tests during validation&#10;    --synchronous              If validation depends on other recently pushed pods,&#10;                               synchronize&#10;    --allow-root               Allows CocoaPods to run as root&#10;    --silent                   Show nothing&#10;    --verbose                  Show more debugging information&#10;    --no-ansi                  Show output without ANSI codes&#10;    --help                     Show help banner of specified command&#10;" />
+          <failure message="/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../var/folders/85/kv2ywtj151l1dyw8tlxk_gmm0000gn/T/fl_clone20210409-77311-1qr8sax/CXActionLanes.git/fastlane/ios_fastfile.rb:69:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:204:in `try_switch_to_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:146:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:15:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:352:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/gems/fastlane-2.178.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/bin/fastlane:23:in `load'&#10;/Users/caixiang/.rvm/gems/ruby-2.6.5/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'CXDragTableView.podspec' --sources='https://cdn.cocoapods.org/' --allow-warnings --use-libraries' was 1 instead of 0.&#10;[!] Unknown option: `--sources=https://cdn.cocoapods.org/`&#10;Did you mean: --synchronous?&#10;&#10;Usage:&#10;&#10;    $ pod trunk push [PATH]&#10;&#10;      Publish the podspec at `PATH` to make it available to all users of the ‘trunk’&#10;      spec-repo. If `PATH` is not provided, defaults to the current directory.&#10;&#10;      Before pushing the podspec to cocoapods.org, this will perform a local lint of&#10;      the podspec, including a build of the library. However, it remains *your*&#10;      responsibility to ensure that the published podspec will actually work for your&#10;      users. Thus it is recommended that you *first* try to use the podspec to&#10;      integrate the library into your demo and/or real application.&#10;&#10;      If this is the first time you publish a spec for this pod, you will&#10;      automatically be registered as the ‘owner’ of this pod. (Note that ‘owner’ in&#10;      this case implies a person that is allowed to publish new versions and add other&#10;      ‘owners’, not necessarily the library author.)&#10;&#10;Options:&#10;&#10;    --allow-warnings           Allows push even if there are lint warnings&#10;    --use-libraries            Linter uses static libraries to install the spec&#10;    --use-modular-headers      Lint uses modular headers during installation&#10;    --swift-version=VERSION    The SWIFT_VERSION that should be used to lint the spec.&#10;                               This takes precedence over a .swift-version file.&#10;    --skip-import-validation   Lint skips validating that the pod can be imported&#10;    --skip-tests               Lint skips building and running tests during validation&#10;    --synchronous              If validation depends on other recently pushed pods,&#10;                               synchronize&#10;    --allow-root               Allows CocoaPods to run as root&#10;    --silent                   Show nothing&#10;    --verbose                  Show more debugging information&#10;    --no-ansi                  Show output without ANSI codes&#10;    --help                     Show help banner of specified command&#10;" />
         
       </testcase>
     
