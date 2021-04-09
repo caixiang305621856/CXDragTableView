@@ -23,6 +23,8 @@ typedef enum{
 @property (nonatomic, strong) CADisplayLink *autoScrollTimer;
 @property (nonatomic, assign) SnapshotMeetsEdge autoScrollDirection;
 @property (nonatomic, assign) BOOL canDrag;
+@property (strong, nonatomic) NSIndexPath *gestureRecognizerStateChangedExchangeIndex;;
+
 #pragma mark - UI Perproty
 
 @end
@@ -67,6 +69,7 @@ typedef enum{
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan:
         {
+//            NSLog(@"UIGestureRecognizerStateBegan");
             CGPoint point = [gesture locationInView:gesture.view];
             NSIndexPath *selectedIndexPath = [self indexPathForRowAtPoint:point];
             self.touchIndexPath = selectedIndexPath;
@@ -101,6 +104,7 @@ typedef enum{
             break;
         case UIGestureRecognizerStateChanged:
         {
+//            NSLog(@"UIGestureRecognizerStateChanged");
             //拖拽的时候的区域可能是超出了拖拽区域
             if (!self.touchIndexPath) {
                 return;
@@ -121,12 +125,15 @@ typedef enum{
             self.dragView.center = center;
             
             NSIndexPath *exchangeIndex = [self indexPathForRowAtPoint:point];
-    
+            _gestureRecognizerStateChangedExchangeIndex = exchangeIndex;
+            
             if ([self checkIfSnapshotMeetsEdge]) {
                 [self startAutoScrollTimer];
+//                NSLog(@"🔥startAutoScrollTimer");
                 return;
             }else{
                 [self stopAutoScrollTimer];
+//                NSLog(@"🚀stopAutoScrollTimer");
             }
             
             if (exchangeIndex) {
@@ -148,6 +155,7 @@ typedef enum{
         case UIGestureRecognizerStateEnded:
         case UIGestureRecognizerStateCancelled:
         {
+//            NSLog(@"UIGestureRecognizerStateCancelled");
             //拖拽的时候的区域可能是超出了拖拽区域
             if (!self.touchIndexPath) {
                 return;
@@ -206,7 +214,13 @@ typedef enum{
 - (BOOL)checkIfSnapshotMeetsEdge{
     CGFloat minY = CGRectGetMinY(self.dragView.frame);
     CGFloat maxY = CGRectGetMaxY(self.dragView.frame);
-    if (minY < self.contentOffset.y) {
+//    NSLog(@"minY %f",minY);
+//    NSLog(@"self.contentOffset.y %f",self.contentOffset.y);
+    CGFloat h = 0;
+    if ([self.delegate respondsToSelector:@selector(amendmentHeight)]) {
+        h = [self.delegate amendmentHeight];
+    }
+    if (minY < self.contentOffset.y + h) {
         self.autoScrollDirection = SnapshotMeetsEdgeTop;
         return YES;
     }
@@ -246,6 +260,7 @@ typedef enum{
         if (self.contentOffset.y > 0) {//向下滚动最大范围限制
             [self setContentOffset:CGPointMake(0, self.contentOffset.y - pixelSpeed)];
             self.dragView.center = CGPointMake(self.dragView.center.x, self.dragView.center.y - pixelSpeed);
+//            return;
         }
     }else{//向下滚动
         if (self.contentOffset.y + self.bounds.size.height < self.contentSize.height) {//向下滚动最大范围限制

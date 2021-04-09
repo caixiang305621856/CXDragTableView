@@ -24,6 +24,15 @@
 }
 
 #pragma mark - UITableViewDataSource
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 200)];
+    redView.backgroundColor = [UIColor redColor];
+    return redView;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 200;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataSource.count;
 }
@@ -44,6 +53,10 @@
 }
 
 #pragma mark - DHDragableCellTableViewDataSource
+- (CGFloat)amendmentHeight {
+    return 200;
+}
+
 //更新数据源（多个分组的情况可自己处理）
 - (void)tableView:(UITableView *)tableView newMoveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
     [self.dataSource exchangeObjectAtIndex:sourceIndexPath.row withObjectAtIndex:destinationIndexPath.row];

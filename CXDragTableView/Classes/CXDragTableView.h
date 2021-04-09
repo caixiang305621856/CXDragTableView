@@ -27,6 +27,8 @@
 
 @optional
 
+/// 修正高度
+- (CGFloat)amendmentHeight;
 /**
  被长按的Cell即将移动
 
