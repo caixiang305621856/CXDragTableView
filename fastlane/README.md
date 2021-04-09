@@ -12,7 +12,7 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew cask install fastlane`
+or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
@@ -34,6 +34,11 @@ fastlane ios cx_gitHubLib
 ### ios cx_lib
 ```
 fastlane ios cx_lib
+```
+
+### ios pod_repo
+```
+fastlane ios pod_repo
 ```
 
 ### ios CXLib
