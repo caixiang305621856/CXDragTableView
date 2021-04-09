@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		297B76AFFB49A9D47E310CCE92F782AE /* CXDragTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238BFFD8BC4409F6D800A3EA2EAD14C7 /* CXDragTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BC32DDFAB7B524438E8B2C0844CDB00 /* Pods-CXDragTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6055A18C7C29CDF1A599DF8C900E05FB /* Pods-CXDragTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72191428200E2A51D6881F68215981D5 /* CXDragTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4AE25EAC1D26AF3739C1918B185E2 /* CXDragTableView.m */; };
-		72D78EC306E0907501902B8ABA47AB47 /* CXDragTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C482F5369270B152AD3619C21B88A9 /* CXDragTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94B6A8CCD0F016B16A5D44F75DA5A528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		99FE1CB75CC27DFD37770AF10C1404A1 /* Pods-CXDragTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEA78C4C652F4C8DFF0D1A8644BF2 /* Pods-CXDragTableView_Tests-dummy.m */; };
-		A6B8983E08AF9428440C0D581F7B54AB /* Pods-CXDragTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED98BF536396418ACB19B7426DB1D5D /* Pods-CXDragTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B351242CFD8A3D55E06E89064270472A /* Pods-CXDragTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AC04BD3F78C4A952F58175791E314 /* Pods-CXDragTableView_Example-dummy.m */; };
-		BDC2B62EB8C8947597BD193B1A6D8AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D7E467DD9E40AC29D686FDBA1779E57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FE0E6ED8714741035ED5709C6AB14C1F /* CXDragTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B26DB41F9C543F52F17260B5A1D0D1 /* CXDragTableView-dummy.m */; };
+		075971DDE350839FDCE51F1FC5828134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		196F2F24A8FA8196CA74114993BE4604 /* Pods-CXDragTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6055A18C7C29CDF1A599DF8C900E05FB /* Pods-CXDragTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297B76AFFB49A9D47E310CCE92F782AE /* CXDragTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F88F3BDD9880F081DCD2D8E83B36F928 /* CXDragTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDA85C6298D1844D197C50D4F77FA9F /* Pods-CXDragTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AC04BD3F78C4A952F58175791E314 /* Pods-CXDragTableView_Example-dummy.m */; };
+		72191428200E2A51D6881F68215981D5 /* CXDragTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDC329C18C0C4B196FACF14CF1394A0 /* CXDragTableView.m */; };
+		72D78EC306E0907501902B8ABA47AB47 /* CXDragTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624A065C82FCD89A21BA8A1BE2FDAB51 /* CXDragTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7963C9B3FA780CEA5B80F054176157CF /* Pods-CXDragTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEA78C4C652F4C8DFF0D1A8644BF2 /* Pods-CXDragTableView_Tests-dummy.m */; };
+		7D21DA703F9693EF163B063811FCA8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BDA7FFDD2B7A539C3293DEEA4961D23 /* Pods-CXDragTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED98BF536396418ACB19B7426DB1D5D /* Pods-CXDragTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25EC7B20EF1C01F7FF14FEC3D621698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE0E6ED8714741035ED5709C6AB14C1F /* CXDragTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA617659797B1B310289129E89F86B /* CXDragTableView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BD753C95B8028477A7EB92070D02BC4 /* PBXContainerItemProxy */ = {
+		3652BC021DFC93912FB80D6D685BA0B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 102F7AF4B7C2B8798C714ADDA5DFE083;
 			remoteInfo = CXDragTableView;
 		};
-		BBB7F8DD6B9BD0B4D128A7DA03F935B7 /* PBXContainerItemProxy */ = {
+		371425E58E744E4915F24164584F8B8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,89 +40,68 @@
 /* Begin PBXFileReference section */
 		0857712F99A0835E10C443CA7643AD63 /* Pods-CXDragTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXDragTableView_Example-Info.plist"; sourceTree = "<group>"; };
 		0F83EE3380C832D3D20554677DB39FE5 /* Pods-CXDragTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXDragTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		12978670656C9BA48B53F8A59406AE50 /* CXDragTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXDragTableView-Info.plist"; sourceTree = "<group>"; };
+		1EDA617659797B1B310289129E89F86B /* CXDragTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXDragTableView-dummy.m"; sourceTree = "<group>"; };
 		212AFE3D113E6AE1E10F204C2E46CF66 /* Pods-CXDragTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXDragTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225220F90073FAFA360E7991D0F8BF1F /* Pods-CXDragTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXDragTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		238BFFD8BC4409F6D800A3EA2EAD14C7 /* CXDragTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXDragTableView.h; path = CXDragTableView/Classes/CXDragTableView.h; sourceTree = "<group>"; };
 		23E73E10E87862D342C3D85B3542448C /* Pods-CXDragTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXDragTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39ED3395B1A0F228DC1DAA2A93A8C090 /* Pods-CXDragTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXDragTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40690FC0A3C7F9505C2D8FABA382232B /* CXDragTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXDragTableView.release.xcconfig; sourceTree = "<group>"; };
 		4729CF2104A300C16B411D42BCCFA79E /* Pods-CXDragTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXDragTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5156B0E7BF50D6BD084112E3F7909A65 /* Pods_CXDragTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXDragTableView_Example.framework; path = "Pods-CXDragTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B26DB41F9C543F52F17260B5A1D0D1 /* CXDragTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXDragTableView-dummy.m"; sourceTree = "<group>"; };
-		52D897911A16D4FDB9AD500B92770A71 /* CXDragTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXDragTableView.xcconfig; sourceTree = "<group>"; };
+		537371C5F4226ED10E18ED4ED4F18154 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		55B75EEA4E4C86C1E23CADDAA98FF4B7 /* Pods-CXDragTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXDragTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5E6097A80E4161BF56E0AE18A2F1EBBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6055A18C7C29CDF1A599DF8C900E05FB /* Pods-CXDragTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXDragTableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		6F4FB0AB9F79FF76A6DBC3473A027654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		624A065C82FCD89A21BA8A1BE2FDAB51 /* CXDragTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXDragTableView-umbrella.h"; sourceTree = "<group>"; };
+		6A2C82E0321E3408B5D96CF8B16BAF21 /* CXDragTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CXDragTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A8EEA78C4C652F4C8DFF0D1A8644BF2 /* Pods-CXDragTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXDragTableView_Tests-dummy.m"; sourceTree = "<group>"; };
 		838AC04BD3F78C4A952F58175791E314 /* Pods-CXDragTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXDragTableView_Example-dummy.m"; sourceTree = "<group>"; };
 		84CAC7B6F50039A3FAE13C3FEA6F464E /* Pods-CXDragTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXDragTableView_Example.modulemap"; sourceTree = "<group>"; };
 		8FB54FE9562EF473045FB7023255D01B /* Pods-CXDragTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXDragTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9124BF577189DCB2C844FC2654840CD6 /* CXDragTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXDragTableView-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B02FB11DF0A66150E5EB4F57E55ACEA7 /* CXDragTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CXDragTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBDC329C18C0C4B196FACF14CF1394A0 /* CXDragTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXDragTableView.m; path = CXDragTableView/Classes/CXDragTableView.m; sourceTree = "<group>"; };
 		C24E48DE561DC5145B34DD95A15B3D5F /* Pods-CXDragTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXDragTableView_Tests-Info.plist"; sourceTree = "<group>"; };
 		C80455E735208CFADEE962F7D5D84C82 /* Pods-CXDragTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXDragTableView_Tests.modulemap"; sourceTree = "<group>"; };
 		D3D8DF921F2546CD2551EC319B96D82A /* CXDragTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CXDragTableView.framework; path = CXDragTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4862C7E9FEE38DCD902381FA504CA87 /* Pods-CXDragTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXDragTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEA4AE25EAC1D26AF3739C1918B185E2 /* CXDragTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXDragTableView.m; path = CXDragTableView/Classes/CXDragTableView.m; sourceTree = "<group>"; };
-		E1C482F5369270B152AD3619C21B88A9 /* CXDragTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXDragTableView-umbrella.h"; sourceTree = "<group>"; };
-		E1E0E3122788D4AB8C1C56D26D1E4002 /* CXDragTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXDragTableView.modulemap; sourceTree = "<group>"; };
-		E76F9E3E8310A65DA43BB967F4835A48 /* CXDragTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXDragTableView-Info.plist"; sourceTree = "<group>"; };
+		D77228A170E449C109ACCB05A279BFC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9879C131A59C824E5F050B83E313E27 /* CXDragTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXDragTableView-prefix.pch"; sourceTree = "<group>"; };
+		DF74F7043D31B6060BAAF48F3AFFA8CE /* CXDragTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXDragTableView.debug.xcconfig; sourceTree = "<group>"; };
+		E1FCF2ECD85571EFEC495B6C6D4473FC /* CXDragTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXDragTableView.modulemap; sourceTree = "<group>"; };
 		F0AD13B237F071B35920ED6D6036D54C /* Pods_CXDragTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXDragTableView_Tests.framework; path = "Pods-CXDragTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88F3BDD9880F081DCD2D8E83B36F928 /* CXDragTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXDragTableView.h; path = CXDragTableView/Classes/CXDragTableView.h; sourceTree = "<group>"; };
 		FED98BF536396418ACB19B7426DB1D5D /* Pods-CXDragTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXDragTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CDF3F8C0FD7FE939B421BE6BB862E13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC2B62EB8C8947597BD193B1A6D8AFD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7999C0C642487ACB8D2672DFDF2145B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94B6A8CCD0F016B16A5D44F75DA5A528 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95CB0C5DDA191AD9C5F592471127D5BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E467DD9E40AC29D686FDBA1779E57F /* Foundation.framework in Frameworks */,
+				075971DDE350839FDCE51F1FC5828134 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF5531D71A806A522A80B5A62670E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D21DA703F9693EF163B063811FCA8A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0039B039E71131C3B6E61B1457DBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25EC7B20EF1C01F7FF14FEC3D621698 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0128D1430C3244917159A0C0486057D9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B02FB11DF0A66150E5EB4F57E55ACEA7 /* CXDragTableView.podspec */,
-				6F4FB0AB9F79FF76A6DBC3473A027654 /* LICENSE */,
-				5E6097A80E4161BF56E0AE18A2F1EBBE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		056A6662991A48EEB5123600692E186A /* CXDragTableView */ = {
-			isa = PBXGroup;
-			children = (
-				238BFFD8BC4409F6D800A3EA2EAD14C7 /* CXDragTableView.h */,
-				DEA4AE25EAC1D26AF3739C1918B185E2 /* CXDragTableView.m */,
-				0128D1430C3244917159A0C0486057D9 /* Pod */,
-				32379B14A0C8E1702F62045FBDC20ECA /* Support Files */,
-			);
-			name = CXDragTableView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0FD89D3A8345C683897A4CCB5E30371E /* Pods-CXDragTableView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,26 +119,35 @@
 			path = "Target Support Files/Pods-CXDragTableView_Example";
 			sourceTree = "<group>";
 		};
-		32379B14A0C8E1702F62045FBDC20ECA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1E0E3122788D4AB8C1C56D26D1E4002 /* CXDragTableView.modulemap */,
-				52D897911A16D4FDB9AD500B92770A71 /* CXDragTableView.xcconfig */,
-				52B26DB41F9C543F52F17260B5A1D0D1 /* CXDragTableView-dummy.m */,
-				E76F9E3E8310A65DA43BB967F4835A48 /* CXDragTableView-Info.plist */,
-				9124BF577189DCB2C844FC2654840CD6 /* CXDragTableView-prefix.pch */,
-				E1C482F5369270B152AD3619C21B88A9 /* CXDragTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CXDragTableView";
-			sourceTree = "<group>";
-		};
 		5727B4825A55BDB60C7307549F6B9694 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				056A6662991A48EEB5123600692E186A /* CXDragTableView */,
+				B2D195C19B5EC3E4ED733B65B1C9D5A8 /* CXDragTableView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E386C34EC1D22FA5760DEAEA28C5A2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCF2ECD85571EFEC495B6C6D4473FC /* CXDragTableView.modulemap */,
+				1EDA617659797B1B310289129E89F86B /* CXDragTableView-dummy.m */,
+				12978670656C9BA48B53F8A59406AE50 /* CXDragTableView-Info.plist */,
+				D9879C131A59C824E5F050B83E313E27 /* CXDragTableView-prefix.pch */,
+				624A065C82FCD89A21BA8A1BE2FDAB51 /* CXDragTableView-umbrella.h */,
+				DF74F7043D31B6060BAAF48F3AFFA8CE /* CXDragTableView.debug.xcconfig */,
+				40690FC0A3C7F9505C2D8FABA382232B /* CXDragTableView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CXDragTableView";
 			sourceTree = "<group>";
 		};
 		871B9617AD6A93B79E8E4B3C457FFF1B /* Products */ = {
@@ -170,6 +158,18 @@
 				F0AD13B237F071B35920ED6D6036D54C /* Pods_CXDragTableView_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D195C19B5EC3E4ED733B65B1C9D5A8 /* CXDragTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F88F3BDD9880F081DCD2D8E83B36F928 /* CXDragTableView.h */,
+				BBDC329C18C0C4B196FACF14CF1394A0 /* CXDragTableView.m */,
+				C9ED5CF41A57AA09CE0635BFDD26C5E6 /* Pod */,
+				5E386C34EC1D22FA5760DEAEA28C5A2A /* Support Files */,
+			);
+			name = CXDragTableView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B7B50387C9DD4FA04B164C2FEB6FD930 /* Pods-CXDragTableView_Tests */ = {
@@ -197,12 +197,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C9ED5CF41A57AA09CE0635BFDD26C5E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				6A2C82E0321E3408B5D96CF8B16BAF21 /* CXDragTableView.podspec */,
+				537371C5F4226ED10E18ED4ED4F18154 /* LICENSE */,
+				D77228A170E449C109ACCB05A279BFC1 /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -219,7 +221,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,19 +229,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A792E44FEA03FDD46A31D16133C5FC1 /* Headers */ = {
+		2393C7A4116C95C9FD700997E4EAC7AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC32DDFAB7B524438E8B2C0844CDB00 /* Pods-CXDragTableView_Example-umbrella.h in Headers */,
+				196F2F24A8FA8196CA74114993BE4604 /* Pods-CXDragTableView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BE9FE93CF3F73E5E81F834D53E263B4 /* Headers */ = {
+		9446008A09BA60FF347F2B4845631256 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B8983E08AF9428440C0D581F7B54AB /* Pods-CXDragTableView_Tests-umbrella.h in Headers */,
+				8BDA7FFDD2B7A539C3293DEEA4961D23 /* Pods-CXDragTableView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,17 +277,17 @@
 		};
 		A2D2D0EBEDFD6F7AF449A442CC9ECB2D /* Pods-CXDragTableView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 664E69ED87AB56414D91E43922431587 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Example" */;
+			buildConfigurationList = F79CB1B24801164D0800101F352AD452 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Example" */;
 			buildPhases = (
-				2A792E44FEA03FDD46A31D16133C5FC1 /* Headers */,
-				0F1B848FC9B1E01908421145507737A5 /* Sources */,
-				1CDF3F8C0FD7FE939B421BE6BB862E13 /* Frameworks */,
-				233C80B9DA205F5EE6FEA060E754A441 /* Resources */,
+				2393C7A4116C95C9FD700997E4EAC7AE /* Headers */,
+				709827562E8717A7A364C7033011A499 /* Sources */,
+				BC0039B039E71131C3B6E61B1457DBBA /* Frameworks */,
+				0AF25C10E38C92CC38A6C46CC4D32EEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39ED51E851D5213528FE20EFF203D4FC /* PBXTargetDependency */,
+				1BEA969EF6244DB1594EA25B0CC5FF93 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXDragTableView_Example";
 			productName = "Pods-CXDragTableView_Example";
@@ -294,17 +296,17 @@
 		};
 		A8CF8B101C032C7C57C2528418B206FF /* Pods-CXDragTableView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 263A6172E13FC82A200F7BF444ED50BA /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Tests" */;
+			buildConfigurationList = FCBA42BF53FEBD29E78515EF28279D40 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Tests" */;
 			buildPhases = (
-				2BE9FE93CF3F73E5E81F834D53E263B4 /* Headers */,
-				60C638DCC8D0BD0FB1C98FB5668178B1 /* Sources */,
-				7999C0C642487ACB8D2672DFDF2145B1 /* Frameworks */,
-				E8E48E5D3487D03775A9B74710FF6D4B /* Resources */,
+				9446008A09BA60FF347F2B4845631256 /* Headers */,
+				66D5F43DB881B97466EFBEB64D20339B /* Sources */,
+				BAF5531D71A806A522A80B5A62670E69 /* Frameworks */,
+				5F0703330B187209F612502B43102BE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0436AA236D105C316D400DCEAAD5358 /* PBXTargetDependency */,
+				6D73322C169567FA6AB63B3E151DDDCF /* PBXTargetDependency */,
 			);
 			name = "Pods-CXDragTableView_Tests";
 			productName = "Pods-CXDragTableView_Tests";
@@ -326,6 +328,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 871B9617AD6A93B79E8E4B3C457FFF1B /* Products */;
@@ -340,7 +343,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		233C80B9DA205F5EE6FEA060E754A441 /* Resources */ = {
+		0AF25C10E38C92CC38A6C46CC4D32EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0703330B187209F612502B43102BE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,29 +364,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8E48E5D3487D03775A9B74710FF6D4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F1B848FC9B1E01908421145507737A5 /* Sources */ = {
+		66D5F43DB881B97466EFBEB64D20339B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B351242CFD8A3D55E06E89064270472A /* Pods-CXDragTableView_Example-dummy.m in Sources */,
+				7963C9B3FA780CEA5B80F054176157CF /* Pods-CXDragTableView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C638DCC8D0BD0FB1C98FB5668178B1 /* Sources */ = {
+		709827562E8717A7A364C7033011A499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99FE1CB75CC27DFD37770AF10C1404A1 /* Pods-CXDragTableView_Tests-dummy.m in Sources */,
+				4EDA85C6298D1844D197C50D4F77FA9F /* Pods-CXDragTableView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,59 +395,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39ED51E851D5213528FE20EFF203D4FC /* PBXTargetDependency */ = {
+		1BEA969EF6244DB1594EA25B0CC5FF93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CXDragTableView;
 			target = 102F7AF4B7C2B8798C714ADDA5DFE083 /* CXDragTableView */;
-			targetProxy = 2BD753C95B8028477A7EB92070D02BC4 /* PBXContainerItemProxy */;
+			targetProxy = 3652BC021DFC93912FB80D6D685BA0B3 /* PBXContainerItemProxy */;
 		};
-		C0436AA236D105C316D400DCEAAD5358 /* PBXTargetDependency */ = {
+		6D73322C169567FA6AB63B3E151DDDCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CXDragTableView_Example";
 			target = A2D2D0EBEDFD6F7AF449A442CC9ECB2D /* Pods-CXDragTableView_Example */;
-			targetProxy = BBB7F8DD6B9BD0B4D128A7DA03F935B7 /* PBXContainerItemProxy */;
+			targetProxy = 371425E58E744E4915F24164584F8B8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		135732DDC98279D718813F668C0A7BD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4729CF2104A300C16B411D42BCCFA79E /* Pods-CXDragTableView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -467,6 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -501,76 +472,11 @@
 			};
 			name = Release;
 		};
-		528845BC74CBF3BC6EC73B7BD2D48BB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F83EE3380C832D3D20554677DB39FE5 /* Pods-CXDragTableView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		78D7A6035A3879723BE25EAEEA8EABC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52D897911A16D4FDB9AD500B92770A71 /* CXDragTableView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CXDragTableView/CXDragTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CXDragTableView/CXDragTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CXDragTableView/CXDragTableView.modulemap";
-				PRODUCT_MODULE_NAME = CXDragTableView;
-				PRODUCT_NAME = CXDragTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		793EF2F50DCCC606A06942C7F7D75AE7 /* Release */ = {
+		97DB44C50CB87E1679A2E2BAD7FD8CE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55B75EEA4E4C86C1E23CADDAA98FF4B7 /* Pods-CXDragTableView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -599,10 +505,72 @@
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		A2A1B0647CFC379F5BF4FBD46A6D6733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF74F7043D31B6060BAAF48F3AFFA8CE /* CXDragTableView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXDragTableView/CXDragTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXDragTableView/CXDragTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXDragTableView/CXDragTableView.modulemap";
+				PRODUCT_MODULE_NAME = CXDragTableView;
+				PRODUCT_NAME = CXDragTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C45D3A5440EEB7A83D6D80660A316A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40690FC0A3C7F9505C2D8FABA382232B /* CXDragTableView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXDragTableView/CXDragTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXDragTableView/CXDragTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXDragTableView/CXDragTableView.modulemap";
+				PRODUCT_MODULE_NAME = CXDragTableView;
+				PRODUCT_NAME = CXDragTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -625,6 +593,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -663,11 +632,11 @@
 			};
 			name = Debug;
 		};
-		8B064C401A49FAA2D82CE2EA5407C656 /* Release */ = {
+		E84238B9F06796D5E95ABE2906C41B35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52D897911A16D4FDB9AD500B92770A71 /* CXDragTableView.xcconfig */;
+			baseConfigurationReference = 4729CF2104A300C16B411D42BCCFA79E /* Pods-CXDragTableView_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -676,18 +645,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CXDragTableView/CXDragTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CXDragTableView/CXDragTableView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CXDragTableView/CXDragTableView.modulemap";
-				PRODUCT_MODULE_NAME = CXDragTableView;
-				PRODUCT_NAME = CXDragTableView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -695,12 +665,43 @@
 			};
 			name = Release;
 		};
-		C03E8E0C7A70126501CB001C1B3EA218 /* Debug */ = {
+		EE781640E6F45E1B14CEB3EC43B241B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F83EE3380C832D3D20554677DB39FE5 /* Pods-CXDragTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXDragTableView_Example/Pods-CXDragTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FED58E1CD9C117E072633D37BE0A73C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FB54FE9562EF473045FB7023255D01B /* Pods-CXDragTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -731,29 +732,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		263A6172E13FC82A200F7BF444ED50BA /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C03E8E0C7A70126501CB001C1B3EA218 /* Debug */,
-				793EF2F50DCCC606A06942C7F7D75AE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		664E69ED87AB56414D91E43922431587 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				528845BC74CBF3BC6EC73B7BD2D48BB9 /* Debug */,
-				135732DDC98279D718813F668C0A7BD0 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,8 +744,26 @@
 		F441B2D229EE7B4BC57C83E17620DF8B /* Build configuration list for PBXNativeTarget "CXDragTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78D7A6035A3879723BE25EAEEA8EABC2 /* Debug */,
-				8B064C401A49FAA2D82CE2EA5407C656 /* Release */,
+				A2A1B0647CFC379F5BF4FBD46A6D6733 /* Debug */,
+				C45D3A5440EEB7A83D6D80660A316A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79CB1B24801164D0800101F352AD452 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE781640E6F45E1B14CEB3EC43B241B1 /* Debug */,
+				E84238B9F06796D5E95ABE2906C41B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBA42BF53FEBD29E78515EF28279D40 /* Build configuration list for PBXNativeTarget "Pods-CXDragTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED58E1CD9C117E072633D37BE0A73C8 /* Debug */,
+				97DB44C50CB87E1679A2E2BAD7FD8CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

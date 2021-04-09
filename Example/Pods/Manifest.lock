@@ -1,5 +1,5 @@
 PODS:
-  - CXDragTableView (0.1.1)
+  - CXDragTableView (0.1.2)
 
 DEPENDENCIES:
   - CXDragTableView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXDragTableView: f9be697e905e63a5a3f574d82565c675927ebabf
+  CXDragTableView: 53ae9d9e9845fa84019ecc30d182fb7b3b7d9c8e
 
 PODFILE CHECKSUM: 1ef92c13efff512db5ec8b1ea2e4e03057531964
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.10.1

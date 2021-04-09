@@ -1,6 +1,6 @@
 {
   "name": "CXDragTableView",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "DragTableView",
   "description": "自定义拖拽的TableViewCell",
   "homepage": "https://github.com/caixiang305621856/CXDragTableView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caixiang305621856/CXDragTableView.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
